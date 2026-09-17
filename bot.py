@@ -22,7 +22,7 @@ from telegram.ext import (
 # НАЛАШТУВАННЯ
 # ============================================================
 
-TOKEN = "8904388078:AAEOjrS2lADAcUg4yk7HZLuEDbWuz1k0CEk"
+TOKEN = os.getenv("BOT_TOKEN")
 
 PROGRESS_FILE = "progress.json"
 
